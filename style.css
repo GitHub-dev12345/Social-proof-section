@@ -203,26 +203,6 @@ footer a{
 
 /* Responsive Webpage CSS Code */
 
-@media screen and (max-width: 1496px) {
-    /* Main Box Responsive CSS Code */
-    main{
-        width: auto;
-        margin: 0px auto;
-        transition: 0.5s;
-    }
-
-    /* star Image Box Responsive CSS Code */
-    #flex-item-2 .star1{
-        width: 100%;
-        transform: 0.5s;
-    }
-
-    #box-2, #box-3{
-        left: 0px;
-        transition: 0.5s;
-    }
-}
-
 @media screen and (max-width: 1415px) {
     /* Flex-Container2 Responsive CSS Code */
     .flex-container-2{
@@ -265,6 +245,13 @@ footer a{
 }
 
 @media screen and (max-width: 1143px) {
+    /* Main Box Responsive CSS Code */
+    main{
+        width: auto;
+        margin: 0px auto;
+        transition: 0.5s;
+    }
+
     /* Inner Flex-Container1 Flex-Item First item Ressponsive CSS Code */
     #flex-item-1{
         transition: 0.8s;
@@ -287,6 +274,19 @@ footer a{
         width: 100%;
         margin-top: 0px;
         transition: 0.8s;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    /* star Image Box Responsive CSS Code */
+    #flex-item-2 .star1{
+        width: 100%;
+        transform: 0.5s;
+    }
+
+    #box-2, #box-3{
+        left: 0px;
+        transition: 0.5s;
     }
 }
 
