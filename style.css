@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
 /* font-family: 'Spartan', sans-serif; */
 
+/* Body Design CSS Code */
 body{
     font-size: 15px;
     font-family: 'Spartan', sans-serif;
     margin: 10px;
-    background: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+    background: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg") hsl(0, 0%, 100%);
     background-repeat: no-repeat no-repeat;
     background-position: top left, bottom right;
 }
 
+/* Inner Body Main Box Content CSS Code */
 main{
     width: 90%;
+    max-width: 1440px;
     margin: 50px auto;
 }
 
@@ -24,6 +27,7 @@ main{
     justify-content: space-around;
 }
 
+/* Inner FlexContainer-1 First Flex-Item CSS Code */
 .flex-item{
     width: 45%;
 }
@@ -49,13 +53,13 @@ main{
     margin-top: -20px;
 }
 
-/* Flex-item-2 Design CSS Code */
+/* Inner FlexContainer-1 Second Flex-Item CSS Code */
 
 #flex-item-2{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 50%;
+    width: 50% auto;
+    height: 50% auto;
     padding: 20px;
     margin-top: 20px;
 }
@@ -75,6 +79,8 @@ main{
     background:  hsl(300, 24%, 96%);
 }
 
+
+/* Inner Flex-Item-2 Star Image CSS Code */
 .star1 p{
     margin-top: 20px;
 }
@@ -106,7 +112,8 @@ main{
     margin-top: 3px;
     margin-left: -90px;
 }
-/* Flex-Container-2 Card CSS Code */
+
+/* Main Box Flex-Container-2 Card CSS Code */
 .flex-container-2{
     display: flex;
     flex-direction: row;
@@ -116,7 +123,7 @@ main{
 }
 
 
-/* Card Design CSS Code */
+/* Inner FlexContainer-2 Card-flex CSS Code */
 .card{
     /* border: 1px solid blue; */
     width: 315px;
@@ -126,6 +133,7 @@ main{
     border-radius: 7px;
 }
 
+/* Inner Card profile Banner Css Code */
 .banner{
     display: flex;
     flex-direction: row;
@@ -154,6 +162,8 @@ main{
     margin-top: 40px;
 }
 
+
+/* Inner Card Para CSS Code */
 .card p{
     font-size: 14px;
     line-height: 1.5;
@@ -173,4 +183,171 @@ main{
 #flex-card-3{
     margin-top: 40px;
     margin-left: -80px;
+}
+
+/* footer Design CSS Code */
+footer{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+footer a{
+    text-decoration: underline;
+    cursor: pointer;
+    color: green;
+}
+
+/* Responsive Webpage CSS Code */
+
+@media screen and (max-width: 1496px) {
+    /* Main Box Responsive CSS Code */
+    main{
+        width: auto;
+        margin: 0px auto;
+        transition: 0.5s;
+    }
+
+    /* star Image Box Responsive CSS Code */
+    #flex-item-2 .star1{
+        width: 100%;
+        transform: 0.5s;
+    }
+
+    #box-2, #box-3{
+        left: 0px;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 1415px) {
+    /* Flex-Container2 Responsive CSS Code */
+    .flex-container-2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        transition: 0.5s;
+    }
+    /* Inner Flex-Container1 Flex-Item First item Ressponsive CSS Code */
+    #flex-item-1{
+        margin: 0px auto;
+    }
+
+    /* Inner Flex-Container1 Flex-Item second item Ressponsive CSS Code */
+    #flex-item-2{
+        margin: 0px auto;
+    }
+
+    /* Star Box Repsonsive CSS COde */
+    .star1{
+        flex-direction: column;
+        transition: 0.5s;
+    }
+
+    .star1 p{
+        margin: 5px auto;
+        font-size: 14px;
+    }
+
+    .star-Box-1, .star-Box-2, .star-Box-3{
+        letter-spacing: 5;
+        padding: 2px;
+        margin: auto;
+    }
+    
+    #flex-card-1, #flex-card-2, #flex-card-3{
+        margin: 12px;
+    }
+}
+
+@media screen and (max-width: 1143px) {
+    /* Inner Flex-Container1 Flex-Item First item Ressponsive CSS Code */
+    #flex-item-1{
+        transition: 0.8s;
+    }
+
+    #flex-item-1 h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    #flex-item-1 p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* Inner Flex-Container1 Flex-Item Second item Ressponsive CSS Code */
+    #flex-item-2{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 0px;
+        transition: 0.8s;
+    }
+}
+
+@media screen and (max-width: 507px) {
+    /* Body Responsive CSS Code */
+    body{
+        background: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+        background-repeat: no-repeat no-repeat;
+        background-position: top left, bottom right;
+    }
+
+    /* In Main Box Model Flex-Container-2 & Card Responsive CSS Code */
+    .flex-container-2 .card{
+        width: auto;
+        transition: 0.5s;
+    }
+
+    /* Inner Flex-Container1 Flex-Item First item Ressponsive CSS Code */
+    #flex-item-1 h1{
+        font-size: 2rem;
+        width: 110%;
+    }
+
+    #flex-item-1 p{
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    /* Inner Flex-Container1 Flex-Item second item Ressponsive CSS Code */
+    #flex-item-2{
+        /* border: 1px solid black; */
+        margin-top: -20px;
+        margin-bottom: -30px;
+    }
+    
+    #flex-item-2 .star1{
+        margin-top: -10px;
+        margin-bottom: 23px;
+        padding: 10px;
+        width: 112%;
+    }
+
+    /* Star Image CSS Code */
+    .star1 p{
+        font-size: 13px;
+    }
+
+    /* Flex-Container2 inner CArd CSs Code */
+    .card{
+        padding: 30px;
+    }
+
+    .banner h4{
+        font-size: 0.6rem;
+    }
+
+    .banner span{
+        font-size: 0.6rem;
+    }
+
+    .card p{
+        font-size: 13px;
+    }
 }
