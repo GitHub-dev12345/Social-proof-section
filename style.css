@@ -187,7 +187,7 @@ main{
 
 /* footer Design CSS Code */
 footer{
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: bold;
     color: black;
     padding: 15px;
@@ -196,11 +196,14 @@ footer{
 }
 
 footer a{
-    text-decoration: underline;
     cursor: pointer;
     color: green;
 }
 
+footer a:hover{
+    text-decoration: none;
+    color: orange;
+}
 /* Responsive Webpage CSS Code */
 
 @media screen and (max-width: 1415px) {
