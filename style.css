@@ -9,7 +9,7 @@ body{
     background: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg") hsl(0, 0%, 100%);
     background-position: top left, bottom right;
     background-repeat: no-repeat no-repeat;
-    background-size: auto, auto;
+    background-size: 100% -10%, 100%;
     transform: scale(0.99);
 }
 
