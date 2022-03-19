@@ -1,0 +1,416 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+/* font-family: 'Spartan', sans-serif; */
+/* Body Design CSS Code */
+body {
+  font-size: 15px;
+  font-family: 'Spartan', sans-serif;
+  margin: 15px;
+  background: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg") white;
+  background-position: left -25px, right 85px;
+  background-repeat: no-repeat no-repeat;
+  background-size: cover 100%, cover 100%;
+}
+
+/* Inner Body Main Box Content CSS Code */
+main {
+  width: 100%;
+  max-width: 1440px;
+  margin: 60px 0px 50px 0px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+/* Flex-Contianer-1 CSS Code */
+.flex-container-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
+}
+
+/* Inner FlexContainer-1 First Flex-Item CSS Code */
+.flex-item {
+  width: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#flex-item-1 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 45%;
+  height: auto;
+  padding: 20px 0px 20px 150px;
+}
+
+#flex-item-1 h1 {
+  font-size: 2.7rem;
+  font-family: 'Spartan', sans-serif;
+  color: #502050;
+  word-spacing: -3px;
+  line-height: 1;
+}
+
+#flex-item-1 p {
+  color: #502050;
+  font-weight: 500;
+  line-height: 1.5;
+  opacity: 0.7;
+  margin-top: -20px;
+  word-spacing: -1px;
+}
+
+/* Inner FlexContainer-1 Second Flex-Item CSS Code */
+#flex-item-2 {
+  width: 55%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 140px 20px 66px;
+}
+
+.star1 {
+  width: 390px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #502050;
+  padding: 0px 20px 0px 0px;
+  margin: 10px 0px 5px 0px;
+  border-radius: 8px;
+  background: #f7f2f7;
+}
+
+.star1 p {
+  margin-top: 20px;
+}
+
+#box-2 {
+  left: 35px;
+}
+
+#box-3 {
+  left: 70px;
+}
+
+.star-Box-1, .star-Box-2, .star-Box-3 {
+  padding: 15px;
+  letter-spacing: 5px;
+}
+
+/* Main Box Flex-Container-2 Card CSS Code */
+.flex-container-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 25px 0px 25px 0px;
+  padding: 25px;
+}
+
+/* Inner FlexContainer-2 Card-flex CSS Code */
+.card {
+  width: 315px;
+  height: 190px;
+  padding: 25px;
+  background: #502050;
+  border-radius: 7px;
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+  margin: 10px;
+  position: relative;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Spartan', sans-serif;
+  color: #f7f2f7;
+}
+
+#flex-card-2 {
+  top: 15px;
+}
+
+#flex-card-3 {
+  top: 25px;
+}
+
+/* Inner Card profile Banner Css Code */
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2px;
+}
+
+.banner img {
+  width: 14%;
+  height: 100%;
+  margin: 10px 20px 0px 0px;
+  border-radius: 100%;
+}
+
+.banner h4 {
+  font-size: 0.8rem;
+  color: white;
+  margin-top: 14px;
+  line-height: 1.5;
+}
+
+.banner h4 span {
+  font-weight: normal;
+  font-size: 13px;
+  color: #ee68a4;
+  margin-top: 40px;
+}
+
+/* footer Design CSS Code */
+footer {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  word-spacing: 5px;
+}
+
+footer a {
+  cursor: pointer;
+  color: green;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+/* Responsive Webpage CSS Code */
+@media screen and (max-width: 1415px) {
+  body {
+    background: white;
+  }
+  #flex-card-1, #flex-card-2, #flex-card-3 {
+    margin: 12px;
+  }
+}
+
+@media screen and (max-width: 1275px) {
+  .flex-container-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0px auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  /* star Image Box Responsive CSS Code */
+  #flex-item-1 {
+    padding: 20px 20px 20px 20px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #flex-item-2 {
+    padding: 20px 20px 20px 20px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #flex-item-2 .star1 {
+    width: 100%;
+    -webkit-transform: 035s;
+            transform: 035s;
+  }
+  #box-2, #box-3 {
+    left: 0px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .star-Box-2 {
+    margin: 0px 0px 0px 30px;
+  }
+}
+
+@media screen and (max-width: 1143px) {
+  /* Main Box Responsive CSS Code */
+  main {
+    width: auto;
+    margin: 0px auto;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .flex-container-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #flex-item-2 .star1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  /* Inner Flex-Container1 Flex-Item First item Ressponsive CSS Code */
+  #flex-item-1 {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    width: 80%;
+  }
+  #flex-item-1 h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  #flex-item-1 p {
+    font-size: 14px;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+  }
+  /* Inner Flex-Container1 Flex-Item Second item Ressponsive CSS Code */
+  #flex-item-2 {
+    width: 80%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .star-Box-1, .star-Box-2, .star-Box-3 {
+    margin: 15px 0px -13px 0px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 507px) {
+  /* Body Responsive CSS Code */
+  body {
+    background: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat no-repeat;
+    background-position: top left, bottom right;
+    margin: 0px;
+    padding: 0px;
+  }
+  main {
+    padding: 0px;
+    margin: 0px;
+  }
+  .flex-container-1 {
+    margin: 60px 0px 0px 0px;
+  }
+  .flex-container-2 {
+    padding: 0px 15px 50px 15px;
+  }
+  #flex-item-1 {
+    padding: 0px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 0px 0px;
+  }
+  #flex-item-1 h1 {
+    font-size: 2rem;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  #flex-item-1 p {
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0px;
+  }
+  .star1 > p {
+    font-size: 0.85rem;
+  }
+  #flex-item-2 {
+    padding: 20px 20px 20px 20px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  /* Flex-Container2 inner CArd CSs Code */
+  .card {
+    width: auto;
+    margin: 0px 0px 0px 0px;
+    height: 170px;
+    padding: 30px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .card p {
+    font-size: 13px;
+  }
+  #flex-card-1 {
+    margin-bottom: -12px;
+  }
+  #flex-card-2 {
+    margin-bottom: -12px;
+  }
+  #flex-card-3 {
+    margin-bottom: -5px;
+  }
+  .banner h4 {
+    font-size: 0.6rem;
+  }
+  .banner span {
+    font-size: 0.6rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
