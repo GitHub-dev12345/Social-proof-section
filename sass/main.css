@@ -121,10 +121,10 @@ main {
   position: relative;
 }
 .card p {
-  font-size: 14px;
+  font-size: 10px bold;
   line-height: 1.5;
   font-family: "Spartan", sans-serif;
-  color: hsl(300deg, 24%, 96%);
+  color: orange;
 }
 
 #flex-card-2 {
